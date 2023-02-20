@@ -1,6 +1,6 @@
 # TreeMap
 
-All available functions:
+Implements in the file TreeMap.c a multi-dictionary based on a binary tree of AVL balanced search starting from the following function definitions:
 
 * createTree – Function that initializes a tree: allocates memory, sets all fields of it, initialize the size (the number of nodes in the tree) and set the root to point to NULL.
 * isEmpty – Checks whether a tree is empty or not
