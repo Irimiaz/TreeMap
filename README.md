@@ -15,4 +15,6 @@ Implements in the file TreeMap.c a multi-dictionary based on a binary tree of AV
 * delete – Removes a node from an AVL tree ensuring rebalancing of the tree and freeing the memory associated with that node. If there are duplicates for the node what is to be removed then the last node in the list of duplicates will be deleted.
 * destroyTree – Frees the memory associated with the tree
 
+A correct implementation will construct and maintain an ordered doubly linked list – starting from the minimum node in the tree and traversing the doubly linked list should all be traversed nodes (including duplicates) in ascending order of keys.
+
 ![image](https://user-images.githubusercontent.com/94114942/220172539-e976e2b7-2153-4ea4-8e21-c1737bbb9656.png)
