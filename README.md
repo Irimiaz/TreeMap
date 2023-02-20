@@ -14,3 +14,5 @@ Implements in the file TreeMap.c a multi-dictionary based on a binary tree of AV
 * insert – Inserts a new node into an AVL tree rebalancing the tree
 * delete – Removes a node from an AVL tree ensuring rebalancing of the tree and freeing the memory associated with that node. If there are duplicates for the node what is to be removed then the last node in the list of duplicates will be deleted.
 * destroyTree – Frees the memory associated with the tree
+
+![image](https://user-images.githubusercontent.com/94114942/220172539-e976e2b7-2153-4ea4-8e21-c1737bbb9656.png)
